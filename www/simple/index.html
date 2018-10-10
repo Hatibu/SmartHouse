@@ -1,4 +1,11 @@
 <html>
+  <head>
+    <style>
+      .name{
+        color:red;
+      }
+    </style>
+  </head>
 <body>
   <script src="https://cdn.jsdelivr.net/npm/waziup-js@0.0.18/lib/Waziup.js"></script>
   <!--script src="./Waziup.js"></script-->
@@ -9,7 +16,7 @@
       document.getElementById("sensor_value").innerHTML = "The temperature is: " + meas.last_value + "C";
     })
   </script>
-  <h1> My SmartHouse</h1>
+  <h1 class="name"> My SmartHouse</h1>
   <div id="sensor_value">
     Loading...
   </div>
